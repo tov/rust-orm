@@ -1,0 +1,11 @@
+[package]
+name = "rust_orm"
+version = "0.1.0"
+authors = ["Alayna Richmond <richmond.alayna@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rust_orm_derive = { path = "rust_orm_derive" }
+rust_orm_lib = { path = "rust_orm_lib" }
